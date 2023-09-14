@@ -2,6 +2,9 @@
 
 Visualize geographic distribution of FIFA Women's World Cup 2023 players' club teams.
 
+**NOTE: This data was scraped, but not verified, thus the data presented may be incorrect. If you notice an inacuracy,
+please let me know.**
+
 ## Project Layout
 
 This project involved several steps and includes several sub-packages and directories.
