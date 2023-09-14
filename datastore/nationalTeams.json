@@ -1,0 +1,226 @@
+{
+  "argentina": {
+    "country": "Argentina",
+    "nickname": "Argentina",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "australia": {
+    "country": "Australia",
+    "nickname": "Australia",
+    "placed": "Fourth Place",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "brazil": {
+    "country": "Brazil",
+    "nickname": "Brazil",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "canada": {
+    "country": "Canada",
+    "nickname": "Canada",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "china pr": {
+    "country": "China PR",
+    "nickname": "China PR",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "colombia": {
+    "country": "Colombia",
+    "nickname": "Colombia",
+    "placed": "Quarterfinals",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "costa rica": {
+    "country": "Costa Rica",
+    "nickname": "Costa Rica",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "denmark": {
+    "country": "Denmark",
+    "nickname": "Denmark",
+    "placed": "Round of Sixteen",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "england": {
+    "country": "England",
+    "nickname": "England",
+    "placed": "Second Place",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "france": {
+    "country": "France",
+    "nickname": "France",
+    "placed": "Quarterfinals",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "germany": {
+    "country": "Germany",
+    "nickname": "Germany",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "haiti": {
+    "country": "Haiti",
+    "nickname": "Haiti",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "italy": {
+    "country": "Italy",
+    "nickname": "Italy",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "jamaica": {
+    "country": "Jamaica",
+    "nickname": "Jamaica",
+    "placed": "Round of Sixteen",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "japan": {
+    "country": "Japan",
+    "nickname": "Japan",
+    "placed": "Quarterfinals",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "korea republic": {
+    "country": "Korea Republic",
+    "nickname": "Korea Republic",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "morocco": {
+    "country": "Morocco",
+    "nickname": "Morocco",
+    "placed": "Round of Sixteen",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "netherlands": {
+    "country": "Netherlands",
+    "nickname": "Netherlands",
+    "placed": "Quarterfinals",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "new zealand": {
+    "country": "New Zealand",
+    "nickname": "New Zealand",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "nigeria": {
+    "country": "Nigeria",
+    "nickname": "Nigeria",
+    "placed": "Round of Sixteen",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "norway": {
+    "country": "Norway",
+    "nickname": "Norway",
+    "placed": "Round of Sixteen",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "panama": {
+    "country": "Panama",
+    "nickname": "Panama",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "philippines": {
+    "country": "Philippines",
+    "nickname": "Philippines",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "portugal": {
+    "country": "Portugal",
+    "nickname": "Portugal",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "republic of ireland": {
+    "country": "Republic of Ireland",
+    "nickname": "Republic of Ireland",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "south africa": {
+    "country": "South Africa",
+    "nickname": "South Africa",
+    "placed": "Round of Sixteen",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "spain": {
+    "country": "Spain",
+    "nickname": "Spain",
+    "placed": "Champions",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "sweden": {
+    "country": "Sweden",
+    "nickname": "Sweden",
+    "placed": "Third Place",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "switzerland": {
+    "country": "Switzerland",
+    "nickname": "Switzerland",
+    "placed": "Round of Sixteen",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "united states": {
+    "country": "United States",
+    "nickname": "United States",
+    "placed": "Round of Sixteen",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "vietnam": {
+    "country": "Vietnam",
+    "nickname": "Vietnam",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  },
+  "zambia": {
+    "country": "Zambia",
+    "nickname": "Zambia",
+    "placed": "Group Stage",
+    "confederation": "UNKNOWN",
+    "wikipediaUrl": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "world-cup-2023-club-team-geography.common",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Common classes and methods for world-cup-2023-club-team-geography project.",
+  "main": "common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "m-siegel",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
