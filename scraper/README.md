@@ -2,6 +2,8 @@
 
 Package to scrape data on FIFA WWC 2023 teams, players, and players' club teams.
 
+**NOTE: This data was scraped, but not verified. The data presented may be inaccurate.**
+
 ## Local Dependencies
 
 Depends on world-cup-2023-club-team-geography.common.
