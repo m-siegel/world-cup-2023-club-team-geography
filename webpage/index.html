@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Geography of FIFA Women's World Cup 2023 Players' Club Teams</title>
+</head>
+
+<body>
+  <header>
+    <h1>Geography of FIFA Women's World Cup 2023 Players' Club Teams</h1>
+  </header>
+  <main class="container row">
+    <p>When they're not playing for their national teams, football players can play for club teams in their own
+      countries or across the globe.</p>
+    <p>Some domestic professional teams or leagues attract world class players from many other countries to play for
+      them. Some national teams encourage (or require) their players to play their club football within their home
+      country.</p>
+    <p>This page shows where FIFA Women's World Cup 2023 players played their club football during the season before the
+      World Cup. Check out the map below to visualize which countries' domestic leagues are most attractive to
+      international players and which national team players mostly play in the same domestic league.</p>
+    <p><b>NOTE: This data was taken from Wikipedia and has not been independently verified. It may be inacurate.</b></p>
+
+    <h2>Where do national team players play club football?</h2>
+    <div class="map-display row">
+      <div class="map-menu-vertical col">
+        <p>Displaying teams:</p>
+
+        <!--TODO: do with JS after loading teams-->
+
+        <p>Group stage exits</p>
+        <div class="item">
+          <input type="checkbox" id="Germany" name="Germany" value="Germany">
+          <label for="Germany">Germany</label>
+        </div>
+
+        <div class="item">
+          <input type="checkbox" id="Canada" name="Canada" value="Canada">
+          <label for="Canada">Canada</label>
+        </div>
+
+        <p>Round of 16 exits</p>
+
+        <div class="item">
+          <input type="checkbox" id="USA" name="USA" value="USA">
+          <label for="USA">USA</label>
+        </div>
+
+        <div class="item">
+          <input type="checkbox" id="Brazil" name="Brazil" value="Brazil">
+          <label for="Brazil">Morocco</label>
+        </div>
+
+      </div>
+
+      <div class="map-menu-horizontal col">
+
+      </div>
+
+      <div class="map-container col">
+        <svg id="mapCountryToClubBefore" class="map"></svg>
+      </div>
+
+    </div>
+    
+    <script src="style.js"></script>
+    <script src="mapDisplayNationalTeamToClub.js" type="module"></script>
+  </main>
+</body>
+
+</html>
