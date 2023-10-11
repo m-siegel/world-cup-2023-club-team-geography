@@ -39,7 +39,6 @@ function WikipediaScraper() {
                             heading,
                             positionCol.find("a").text());
                         player.wikiUrl = nameCol.find("a").attr("href").toString();
-                        // TODO: club obj and set?
                         var precedingClubAssociation = new common.ClubAssociation(
                             loadedHtml(clubAssociation).find("a").attr("title"),
                             loadedHtml(clubAssociation).find("img").attr("alt"),
@@ -79,6 +78,3 @@ function WikipediaScraper() {
 }
 
 export default WikipediaScraper();
-
-// // TODO: query and scrape wikipedia for player team; country info?
-
