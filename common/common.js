@@ -42,7 +42,6 @@ function Common() {
         this.nickname = nickname;
         this.placed = placed;  // Group Stage, Round of 16, Quarter-finals, Semi-finals (Fourth, Third), Final (Second, First)
         this.confederation = confederation;
-        // TODO: include these or not?
         this.wikipediaUrl = "";
     };
 
@@ -52,13 +51,11 @@ function Common() {
         this.precedingClub = precedingClub;  // Played at before the World Cup
         this.followingClub = followingClub;  // Will play at after the World Cup
         this.position = position;  // G, D, M, F, N/A
-        // TODO: include these or not?
         this.wikipediaUrl = "";
     };
 
     common.ClubTeam = function ClubTeam(name, association = null, wikiUrl = "") {
         this.name = name;
-        // TODO: this.league and league class?
         this.wikipediaUrl = wikiUrl;
         this.association = association;
     };
