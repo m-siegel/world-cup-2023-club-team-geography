@@ -1,7 +1,5 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-const DATA_FILE_LOCATION = "http://localhost:8000/datastore/";    // TODO: Change when deploy
-
 // Util.
 /**
  * Check whether the given object is null or empty.
@@ -14,11 +12,14 @@ function isEmpty(obj) {
 
 function DAO () {
   let dao = {};
+  dao.data_dir = "./";
 
   dao.playersByNationalTeam = {};
 
-  dao.init = async function () {
-    let json = await (await fetch(DATA_FILE_LOCATION + "playersByNationalTeam.json")).json();
+  dao.init = async function (rootDir) {
+    dao.data_dir = rootDir;
+
+    let json = await (await fetch(dao.data_dir + "playersByNationalTeam.json")).json();
     // Get dict {nationalTeams: {clubCountries: [players]}}
     Object.keys(json).forEach((nationalTeamKey) => {
       dao.playersByNationalTeam[nationalTeamKey] = {};
@@ -33,9 +34,9 @@ function DAO () {
       })
     });
 
-    dao.nationalTeams = await (await fetch(DATA_FILE_LOCATION + "nationalTeams.json")).json();
+    dao.nationalTeams = await (await fetch(dao.data_dir + "nationalTeams.json")).json();
 
-    dao.worldMap = await d3.json(DATA_FILE_LOCATION + "countriesGeoJSON.json");    // Exploring different ways of accessing json.
+    dao.worldMap = await d3.json(dao.data_dir + "countriesGeoJSON.json");    // Exploring different ways of accessing json.
 
     if (!dao.isInitialized) {
       throw new Error("Initilization failed.");
