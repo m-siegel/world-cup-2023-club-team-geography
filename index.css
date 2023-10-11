@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700;800&display=swap');
+
+:root {
+  --fwwcGold: rgb(231, 184, 98);
+  --fwwcCyan: rgb(153, 242, 228);
+  --fwwcMaroon: rgb(105, 19, 69);
+  --fwwcSalmon: rgb(224, 66, 114);
+  --max-int: 2147483647;
+}
+
+body {
+  font-family: 'Gabarito', sans-serif;
+  font-size: calc(12px + .5vw);    /* https://stackoverflow.com/questions/23984629/how-to-set-min-font-size-in-css */
+  /* color: rgb(9, 15, 14);
+  background-color: rgb(249, 243, 231); */
+  color: rgb(9, 15, 14);
+  /* background-color: rgb(228, 255, 251); */
+  background-color: rgb(236, 255, 252);
+
+  color: rgb(26, 21, 11);
+  background-color: rgb(255, 234, 195);
+
+}
+
+header {
+  /* background-color: rgb(9, 15, 14);
+  color: rgb(153, 242, 228); */
+  color: rgb(153, 242, 228);
+  background-color: rgb(9, 15, 14);
+
+  color:rgb(231, 184, 98);
+  background-color: rgb(26, 21, 11);
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding-left: 20px;
+  z-index: var(--max-int);
+}
+
+h1 {
+  width: 98%;
+}
+
+.container {
+  display: flexbox;
+  /* display: block; */
+  padding: 10px;
+  width: 100%;
+}
+
+.map-display>* {
+  display: inline-block;
+}
+
+.map-menu p {
+  font-weight: bold;
+}
+
+.map-menu-vertical {
+  margin: 10px;
+  vertical-align: top;
+  overflow: scroll;
+}
+
+input {
+  accent-color: var(--fwwcSalmon);
+}
+
+/* See https://chartio.com/resources/tutorials/how-to-resize-an-svg-when-the-window-is-resized-in-d3-js/ for resizeable map */
+.map-container {
+  position: relative;
+}
+
+.map-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.map path {
+  /* fill: rgb(201, 219, 216);
+  stroke: rgb(249, 243, 231); */
+  /* fill: rgb(77, 128, 119); */
+  /* fill: rgb(169, 201, 195);
+  stroke: rgb(9, 15, 14); */
+  fill: rgb(9, 15, 14);
+  stroke: rgb(228, 255, 251);
+
+
+  fill: rgb(26, 21, 11);
+  stroke: rgb(255, 234, 195);
+}
+
+.circles circle {
+  /* fill: rgb(105, 19, 69); */
+  fill: rgb(255, 0, 76);
+  opacity: 70%;
+}
+
+/* from bootstrap */
+/* .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(var(--bs-gutter-x)*-.5);
+  margin-right: calc(var(--bs-gutter-x)*-.5);
+  margin-top: calc(var(--bs-gutter-y)*-1);
+} */
+
+/* .row>* {
+  flex-shrink: 0;
+  margin-top: var(--bs-gutter-y);
+  max-width: 100%;
+  padding-left: calc(var(--bs-gutter-x)*.5);
+  padding-right: calc(var(--bs-gutter-x)*.5);
+  width: 100%;
+} */
+
+/* .col {
+  flex: 1 0;
+} */
+
+/* *, :after, :before {
+  box-sizing: border-box;
+} */
+
+/* end bootstrap */

@@ -25,48 +25,42 @@
 
     <h2>Where do national team players play club football?</h2>
     <div class="map-display row">
-      <div class="map-menu-vertical col">
-        <p>Displaying teams:</p>
-
-        <!--TODO: do with JS after loading teams-->
-
-        <p>Group stage exits</p>
-        <div class="item">
-          <input type="checkbox" id="Germany" name="Germany" value="Germany">
-          <label for="Germany">Germany</label>
-        </div>
-
-        <div class="item">
-          <input type="checkbox" id="Canada" name="Canada" value="Canada">
-          <label for="Canada">Canada</label>
-        </div>
-
-        <p>Round of 16 exits</p>
-
-        <div class="item">
-          <input type="checkbox" id="USA" name="USA" value="USA">
-          <label for="USA">USA</label>
-        </div>
-
-        <div class="item">
-          <input type="checkbox" id="Brazil" name="Brazil" value="Brazil">
-          <label for="Brazil">Morocco</label>
-        </div>
+      <div class="map-menu map-menu-horizontal col">
 
       </div>
 
-      <div class="map-menu-horizontal col">
+      <div class="map-menu map-menu-vertical col">
+        <p>Displaying teams:</p>
 
+        <div class="groupStageFinishers">
+          <p class="placement-grouping-descriptor">Group stage finishers</p>
+        </div>
+        <div class="roundOf16Finishers">
+          <p class="placement-grouping-descriptor">Round of 16 finishers</p>
+        </div>
+        <div class="quarterfinalFinishers">
+          <p class="placement-grouping-descriptor">Quarterfinal finishers</p>
+        </div>
+        <div class="semifinalFinishers">
+          <p class="placement-grouping-descriptor">Semifinal finisher</p>
+        </div>
+        <div class="finalists">
+          <p class="placement-grouping-descriptor">Finalists</p>
+        </div>
       </div>
 
       <div class="map-container col">
-        <svg id="mapCountryToClubBefore" class="map"></svg>
+        <!-- preserveAspectRatio and viewbox make responsive sizing. -->
+        <!-- Size of viewBox dims varies inversely with inital size of svg. Too small dims ==> image is cut off, too big dims ==> image is always relatively small. -->
+        <svg id="mapCountryToClubBefore" class="map-content" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1401 676">
+          <g class="map"></g>
+          <g class="circles"></g>
+        </svg>
       </div>
 
     </div>
     
-    <script src="style.js"></script>
-    <script src="mapDisplayNationalTeamToClub.js" type="module"></script>
+    <script src="index.js" type="module"></script>
   </main>
 </body>
 
