@@ -1,0 +1,14 @@
+{
+  "name": "datastore",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Datastore and accessor for the project.",
+  "main": "dao.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "m-siegel",
+  "license": "UNLICENSED",
+  "dependencies": {
+  }
+}
