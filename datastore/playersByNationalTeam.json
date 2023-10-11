@@ -791,7 +791,7 @@
       "nationalTeam": "Philippines",
       "precedingClub": {
         "name": "",
-        "wikipediaUrl": "https://en.wikipedia.org/undefined",
+        "wikipediaUrl": "",
         "association": {
           "name": "United States Soccer Federation",
           "country": "United States",
@@ -944,7 +944,7 @@
       "nationalTeam": "Philippines",
       "precedingClub": {
         "name": "",
-        "wikipediaUrl": "https://en.wikipedia.org/undefined",
+        "wikipediaUrl": "",
         "association": {
           "name": "United States Soccer Federation",
           "country": "United States",
@@ -978,7 +978,7 @@
       "nationalTeam": "Philippines",
       "precedingClub": {
         "name": "Unattached",
-        "wikipediaUrl": "https://en.wikipedia.org/undefined",
+        "wikipediaUrl": "",
         "association": {
           "name": "Free agent",
           "wikipediaUrl": "https://en.wikipedia.org//wiki/Free_agent"
@@ -1045,7 +1045,7 @@
       "nationalTeam": "Philippines",
       "precedingClub": {
         "name": "Unattached",
-        "wikipediaUrl": "https://en.wikipedia.org/undefined",
+        "wikipediaUrl": "",
         "association": {
           "name": "Free agent",
           "wikipediaUrl": "https://en.wikipedia.org//wiki/Free_agent"
@@ -2377,10 +2377,12 @@
       "name": "Ashleigh Plumptre",
       "nationalTeam": "Nigeria",
       "precedingClub": {
-        "name": "",
-        "wikipediaUrl": "https://en.wikipedia.org/undefined",
+        "name": "Leicester City",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Leicester_City_W.F.C.",
         "association": {
-          "wikipediaUrl": "https://en.wikipedia.org/undefined"
+          "name": "The Football Association",
+          "country": "England",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/The_Football_Association"
         }
       },
       "followingClub": null,
@@ -4709,6 +4711,399 @@
       "position": "DF",
       "wikipediaUrl": "",
       "wikiUrl": "/wiki/Vast_Phiri"
+    }
+  },
+  "china": {
+    "zhu yu": {
+      "name": "Zhu Yu",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Shanghai Shengli",
+        "wikipediaUrl": "https://en.wikipedia.org//w/index.php?title=Shanghai_Shengli_F.C.&action=edit&redlink=1",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "GK",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Zhu_Yu_(footballer)"
+    },
+    "li mengwen": {
+      "name": "Li Mengwen",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Paris Saint-Germain",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Paris_Saint-Germain_F%C3%A9minine",
+        "association": {
+          "name": "French Football Federation",
+          "country": "France",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/French_Football_Federation"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Li_Mengwen"
+    },
+    "dou jiaxing": {
+      "name": "Dou Jiaxing",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Jiangsu",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Jiangsu_L.F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/w/index.php?title=Dou_Jiaxing&action=edit&redlink=1"
+    },
+    "wang linlin": {
+      "name": "Wang Linlin",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Shanghai Shengli",
+        "wikipediaUrl": "https://en.wikipedia.org//w/index.php?title=Shanghai_Shengli_F.C.&action=edit&redlink=1",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Wang_Linlin"
+    },
+    "wu haiyan": {
+      "name": "Wu Haiyan",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Wuhan Jianghan University",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Wuhan_Jianghan_University_F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Wu_Haiyan"
+    },
+    "zhang xin": {
+      "name": "Zhang Xin",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Shanghai Shengli",
+        "wikipediaUrl": "https://en.wikipedia.org//w/index.php?title=Shanghai_Shengli_F.C.&action=edit&redlink=1",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Zhang_Xin_(footballer)"
+    },
+    "wang shuang": {
+      "name": "Wang Shuang",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Racing Louisville",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Racing_Louisville_FC",
+        "association": {
+          "name": "United States Soccer Federation",
+          "country": "United States",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/United_States_Soccer_Federation"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Wang_Shuang_(footballer)"
+    },
+    "yao wei": {
+      "name": "Yao Wei",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Wuhan Jianghan University",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Wuhan_Jianghan_University_F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Yao_Wei_(footballer)"
+    },
+    "shen mengyu": {
+      "name": "Shen Mengyu",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Celtic",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Celtic_F.C._Women",
+        "association": {
+          "name": "Scottish Football Association",
+          "country": "Scotland",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Scottish_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Shen_Mengyu"
+    },
+    "zhang ruivice-captain": {
+      "name": "Zhang Ruivice-captain",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Wuhan Jianghan University",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Wuhan_Jianghan_University_F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Zhang_Rui_(footballer)"
+    },
+    "wang shanshancaptain": {
+      "name": "Wang Shanshancaptain",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Wuhan Jianghan University",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Wuhan_Jianghan_University_F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Wang_Shanshan"
+    },
+    "xu huan": {
+      "name": "Xu Huan",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Jiangsu",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Jiangsu_L.F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "GK",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Xu_Huan"
+    },
+    "yang lina": {
+      "name": "Yang Lina",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Levante Las Planas",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/FC_Levante_Las_Planas",
+        "association": {
+          "name": "Royal Spanish Football Federation",
+          "country": "Spain",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Royal_Spanish_Football_Federation"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Yang_Lina_(footballer)"
+    },
+    "lou jiahui": {
+      "name": "Lou Jiahui",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Wuhan Jianghan University",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Wuhan_Jianghan_University_F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Lou_Jiahui"
+    },
+    "chen qiaozhu": {
+      "name": "Chen Qiaozhu",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Meizhou Huijun",
+        "wikipediaUrl": "https://en.wikipedia.org//w/index.php?title=Meizhou_Huijun_W.F.C.&action=edit&redlink=1",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Chen_Qiaozhu"
+    },
+    "yao lingwei": {
+      "name": "Yao Lingwei",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Wuhan Jianghan University",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Wuhan_Jianghan_University_F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Yao_Lingwei"
+    },
+    "wu chengshu": {
+      "name": "Wu Chengshu",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Canberra United",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Canberra_United_FC",
+        "association": {
+          "name": "Football Australia",
+          "country": "Australia",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Football_Australia"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Wu_Chengshu"
+    },
+    "tang jiali": {
+      "name": "Tang Jiali",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Shanghai Shengli",
+        "wikipediaUrl": "https://en.wikipedia.org//w/index.php?title=Shanghai_Shengli_F.C.&action=edit&redlink=1",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Tang_Jiali_(footballer)"
+    },
+    "zhang linyan": {
+      "name": "Zhang Linyan",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Grasshoppers",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Grasshopper_Club_Z%C3%BCrich_(women)",
+        "association": {
+          "name": "Swiss Football Association",
+          "country": "Switzerland",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Swiss_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Zhang_Linyan"
+    },
+    "xiao yuyi": {
+      "name": "Xiao Yuyi",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Shanghai Shengli",
+        "wikipediaUrl": "https://en.wikipedia.org//w/index.php?title=Shanghai_Shengli_F.C.&action=edit&redlink=1",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Xiao_Yuyi"
+    },
+    "gu yasha": {
+      "name": "Gu Yasha",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Wuhan Jianghan University",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Wuhan_Jianghan_University_F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Gu_Yasha"
+    },
+    "pan hongyan": {
+      "name": "Pan Hongyan",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Beijing",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Beijing_W.F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "GK",
+      "wikipediaUrl": "",
+      "wikiUrl": "/w/index.php?title=Pan_Hongyan&action=edit&redlink=1"
+    },
+    "gao chen": {
+      "name": "Gao Chen",
+      "nationalTeam": "China",
+      "precedingClub": {
+        "name": "Changchun Dazhong Zhuoyue",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Changchun_Dazhong_Zhuoyue_W.F.C.",
+        "association": {
+          "name": "Chinese Football Association",
+          "country": "China",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Chinese_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Gao_Chen"
     }
   },
   "denmark": {
@@ -11072,8 +11467,8 @@
       "name": "Marina Hegering",
       "nationalTeam": "Germany",
       "precedingClub": {
-        "name": "Bayern Munich",
-        "wikipediaUrl": "https://en.wikipedia.org//wiki/FC_Bayern_Munich_(women)",
+        "name": "VfL Wolfsburg",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/VfL_Wolfsburg_(women)",
         "association": {
           "name": "German Football Association",
           "country": "Germany",
@@ -11783,6 +12178,399 @@
       "position": "FW",
       "wikipediaUrl": "",
       "wikiUrl": "/wiki/Rosella_Ayane"
+    }
+  },
+  "south korea": {
+    "yoon young-geul": {
+      "name": "Yoon Young-geul",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "BK Häcken",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/BK_H%C3%A4cken_FF",
+        "association": {
+          "name": "Swedish Football Association",
+          "country": "Sweden",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Swedish_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "GK",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Yoon_Young-geul"
+    },
+    "choo hyo-joo": {
+      "name": "Choo Hyo-joo",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Suwon FC",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Suwon_FC_Women",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Choo_Hyo-joo"
+    },
+    "hong hye-ji": {
+      "name": "Hong Hye-ji",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Incheon Hyundai Steel",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Incheon_Hyundai_Steel_Red_Angels_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Hong_Hye-ji"
+    },
+    "shim seo-yeon": {
+      "name": "Shim Seo-yeon",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Suwon FC",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Suwon_FC_Women",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Shim_Seo-yeon"
+    },
+    "kim yun-ji": {
+      "name": "Kim Yun-ji",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Suwon FC",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Suwon_FC_Women",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/w/index.php?title=Kim_Yun-ji_(footballer)&action=edit&redlink=1"
+    },
+    "lim seon-joo": {
+      "name": "Lim Seon-joo",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Incheon Hyundai Steel",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Incheon_Hyundai_Steel_Red_Angels_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Lim_Seon-joo"
+    },
+    "son hwa-yeon": {
+      "name": "Son Hwa-yeon",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Incheon Hyundai Steel",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Incheon_Hyundai_Steel_Red_Angels_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Son_Hwa-yeon"
+    },
+    "cho so-hyun": {
+      "name": "Cho So-hyun",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Tottenham Hotspur",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Tottenham_Hotspur_F.C._Women",
+        "association": {
+          "name": "The Football Association",
+          "country": "England",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/The_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Cho_So-hyun"
+    },
+    "lee geum-min": {
+      "name": "Lee Geum-min",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Brighton & Hove Albion",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Brighton_%26_Hove_Albion_W.F.C.",
+        "association": {
+          "name": "The Football Association",
+          "country": "England",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/The_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Lee_Geum-min"
+    },
+    "ji so-yun": {
+      "name": "Ji So-yun",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Suwon FC",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Suwon_FC_Women",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Ji_So-yun"
+    },
+    "choe yu-ri": {
+      "name": "Choe Yu-ri",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Incheon Hyundai Steel",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Incheon_Hyundai_Steel_Red_Angels_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Choe_Yu-ri"
+    },
+    "moon mi-ra": {
+      "name": "Moon Mi-ra",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Suwon FC",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Suwon_FC_Women",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Moon_Mi-ra"
+    },
+    "park eun-sun": {
+      "name": "Park Eun-sun",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Seoul WFC",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Seoul_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Park_Eun-sun_(footballer)"
+    },
+    "jeon eun-ha": {
+      "name": "Jeon Eun-ha",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Suwon FC",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Suwon_FC_Women",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Jeon_Eun-ha"
+    },
+    "chun ga-ram": {
+      "name": "Chun Ga-ram",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Hwacheon KSPO",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Hwacheon_KSPO_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/w/index.php?title=Chun_Ga-ram&action=edit&redlink=1"
+    },
+    "jang sel-gi": {
+      "name": "Jang Sel-gi",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Incheon Hyundai Steel",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Incheon_Hyundai_Steel_Red_Angels_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Jang_Sel-gi"
+    },
+    "lee young-ju": {
+      "name": "Lee Young-ju",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Madrid CFF",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Madrid_CFF",
+        "association": {
+          "name": "Royal Spanish Football Federation",
+          "country": "Spain",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Royal_Spanish_Football_Federation"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Lee_Young-ju"
+    },
+    "kim jung-mi": {
+      "name": "Kim Jung-mi",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Incheon Hyundai Steel",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Incheon_Hyundai_Steel_Red_Angels_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "GK",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Kim_Jung-mi_(footballer)"
+    },
+    "casey phair": {
+      "name": "Casey Phair",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Players Development Academy",
+        "wikipediaUrl": "https://en.wikipedia.org//w/index.php?title=Players_Development_Academy&action=edit&redlink=1",
+        "association": {
+          "name": "United States Soccer Federation",
+          "country": "United States",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/United_States_Soccer_Federation"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Casey_Phair"
+    },
+    "kim hye-ricaptain": {
+      "name": "Kim Hye-ricaptain",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Incheon Hyundai Steel",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Incheon_Hyundai_Steel_Red_Angels_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "DF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Kim_Hye-ri_(footballer)"
+    },
+    "ryu ji-soo": {
+      "name": "Ryu Ji-soo",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Seoul WFC",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Seoul_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "GK",
+      "wikipediaUrl": "",
+      "wikiUrl": "/w/index.php?title=Ryu_Ji-soo&action=edit&redlink=1"
+    },
+    "bae ye-bin": {
+      "name": "Bae Ye-bin",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Uiduk University",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Uiduk_University",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "MF",
+      "wikipediaUrl": "",
+      "wikiUrl": "/w/index.php?title=Bae_Ye-bin&action=edit&redlink=1"
+    },
+    "kang chae-rim": {
+      "name": "Kang Chae-rim",
+      "nationalTeam": "South Korea",
+      "precedingClub": {
+        "name": "Incheon Hyundai Steel",
+        "wikipediaUrl": "https://en.wikipedia.org//wiki/Incheon_Hyundai_Steel_Red_Angels_WFC",
+        "association": {
+          "name": "Korea Football Association",
+          "country": "South Korea",
+          "wikipediaUrl": "https://en.wikipedia.org//wiki/Korea_Football_Association"
+        }
+      },
+      "followingClub": null,
+      "position": "FW",
+      "wikipediaUrl": "",
+      "wikiUrl": "/wiki/Kang_Chae-rim"
     }
   }
 }

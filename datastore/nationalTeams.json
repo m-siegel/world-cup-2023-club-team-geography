@@ -27,9 +27,9 @@
     "confederation": "UNKNOWN",
     "wikipediaUrl": ""
   },
-  "china pr": {
-    "country": "China PR",
-    "nickname": "China PR",
+  "china": {
+    "country": "China",
+    "nickname": "China",
     "placed": "Group Stage",
     "confederation": "UNKNOWN",
     "wikipediaUrl": ""
@@ -104,9 +104,9 @@
     "confederation": "UNKNOWN",
     "wikipediaUrl": ""
   },
-  "korea republic": {
-    "country": "Korea Republic",
-    "nickname": "Korea Republic",
+  "south korea": {
+    "country": "South Korea",
+    "nickname": "South Korea",
     "placed": "Group Stage",
     "confederation": "UNKNOWN",
     "wikipediaUrl": ""
