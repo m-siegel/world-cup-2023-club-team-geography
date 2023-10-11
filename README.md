@@ -1,6 +1,8 @@
 # World Cup 2023 Club Team Geography
 
-Visualize geographic distribution of FIFA Women's World Cup 2023 players' club teams.
+Visualize geographic distribution of FIFA Women's World Cup 2023 players' club teams.[]
+
+[***View the page here!***](https://m-siegel.github.io/world-cup-2023-club-team-geography/)
 
 **NOTE: This data was scraped, but not verified, so the information presented may be incorrect. If you notice an inacuracy, please let me know.**
 
