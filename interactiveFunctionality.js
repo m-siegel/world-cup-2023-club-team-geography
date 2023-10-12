@@ -17,7 +17,7 @@ function InteractiveFunctionality() {
 /**
  * Sets the items of the map menu.
  */
-  interactiveFunctionality.setUpMenu = function () {
+  interactiveFunctionality.setUpMenu = function (changeHandler=interactiveFunctionality.handleCheckboxChangeForChoropleth) {
   let teams = dao.getNationalTeamsObjArray();
   // Inefficient but only done once.
   d3.select(".map-menu-vertical .groupStageFinishers")
@@ -105,11 +105,15 @@ function InteractiveFunctionality() {
   
     // Must be on the input element, so can't be combined with the selections above.
   d3.selectAll(".map-menu-vertical input").on("change", (e) => {
-    interactiveFunctionality.handleCheckboxChange(e);
+    changeHandler(e);
   });
 }
 
 interactiveFunctionality.handleCheckboxChange = function (e) {
+  interactiveFunctionality.handleCheckboxChangeForChoropleth(e);
+}
+
+interactiveFunctionality.handleCheckboxChangeForBubbles = function (e) {
   if (e.target.checked) {
     interactiveFunctionality.selectedNationalTeams.push(e.target.value);
   } else {
@@ -118,6 +122,14 @@ interactiveFunctionality.handleCheckboxChange = function (e) {
     );
   }
   dataRender.drawCircles(interactiveFunctionality.selectedNationalTeams);
+}
+
+interactiveFunctionality.handleCheckboxChangeForChoropleth = function (e) {
+  if (e.target.checked) {
+    dataRender.updateMap([e.target.value], []);
+  } else {
+    dataRender.updateMap([], [e.target.value]);
+  }
 }
 
 interactiveFunctionality.addWindowEventListeners = function () {

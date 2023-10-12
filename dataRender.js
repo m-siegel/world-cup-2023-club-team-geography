@@ -1,5 +1,6 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 import dao from "./datastore/dao.js";
+import style from "./style.js";
 
 /**
  * Methods to render data.
@@ -14,6 +15,9 @@ function DataRender() {
   dataRender.geoGenerator = {};
 
   dataRender.countryCentroids = {}; // Change on resize
+
+  dataRender.mapPathElemMap = {};
+  dataRender.colorScale = {};
 
   dataRender.init = function (json) {
     dataRender.geojson = json;
@@ -30,8 +34,15 @@ function DataRender() {
       .select("#mapCountryToClubBefore g.map")
       .selectAll("path")
       .data(dataRender.geojson.features);
-    map.enter().append("path").attr("d", dataRender.geoGenerator);
-  }
+    map
+      .enter()
+      .append("path")
+      .attr("d", dataRender.geoGenerator)
+      .each(function (d) {
+        // So elements can be accessed directly later.
+        dataRender.mapPathElemMap[this.__data__.properties.NAME.toLowerCase()] = this;
+      });
+  };
 
   dataRender.setRadius = function (fromTeams) {
     let clubCountries = dao.getPlayersByClubCountry(fromTeams);
@@ -76,7 +87,67 @@ function DataRender() {
         // TODO: Handle case where there's no centroid (unaffiliated players)
       })
       .attr("r", (d) => dataRender.radius(d.players.length));
+  };
+
+  // TODO: put elsewhere?
+  dataRender.enhanceMapDataWithPlayerCount = function (playerCounts = {}) {
+    dataRender.geojson.features.forEach((feature) => {
+      feature.properties.playerCount =
+        feature.properties.NAME in playerCounts
+          ? playerCounts[feature.properties.name]
+          : 0;
+    });
+  };
+
+  dataRender.updateMap = function (teamNamesToAdd=[], teamNamesToRemove=[]) {
+    let clubTeamToAddTo = dao.getPlayersByClubCountry(teamNamesToAdd);
+    dataRender.addToMapCountryCountAttribute(clubTeamToAddTo);
+    let clubTeamToRemoveFrom = dao.getPlayersByClubCountry(teamNamesToRemove);
+    dataRender.addToMapCountryCountAttribute(
+      clubTeamToRemoveFrom,
+      -1
+    );
+
+    function getNames(teamArr) {
+      return teamArr.map((t) => t.name.toLowerCase())
+    }
+    let temp = new Set([...getNames(clubTeamToAddTo), ...getNames(clubTeamToRemoveFrom)]);
+    dataRender.recolorCountries(temp);
+  };
+
+  // helper
+  dataRender.addToMapCountryCountAttribute = function(countsArray, sign = 1) {
+    sign = sign >= 1 ? 1 : -1;
+    countsArray.forEach((clubCountry) => {
+      // TODO: note error if playercount undefined
+      try {
+          dataRender.mapPathElemMap[
+            clubCountry.name.toLowerCase()
+          ].__data__.properties.playerCount += sign * clubCountry.playerCount;
+      } catch (err) {
+        console.warn("addToMapCountryCountAttribute failed for " + clubCountry.name)
+      }
+    });
   }
+
+  dataRender.recolorCountries = function (countryNamesArray) {  // iterable
+    countryNamesArray.forEach((name) => {
+      d3.select(dataRender.mapPathElemMap[name]).style("fill", (d) => {
+        if (d.properties.playerCount) {
+          return dataRender.colorScale(d.properties.playerCount)
+        }
+      });
+    });
+  };
+
+  dataRender.setColorScale = function (nationalTeamNames) {
+    let clubCountries = dao.getPlayersByClubCountry(nationalTeamNames);
+    dataRender.colorScale = d3
+      .scaleLinear()
+      // TODO: maybe more benchmarks. other scale function?
+      .domain([1, 23, d3.max(clubCountries, (d) => d.players.length)])
+      .range(["brown", "yellow", style.accentColor2])
+  };
 
   return dataRender;
 }

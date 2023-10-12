@@ -88,6 +88,7 @@ function DAO () {
       let temp = {};
       temp.name = countryKey;
       temp.players = clubCountryDict[countryKey];
+      temp.playerCount = temp.players.length;
       playersByClubCountry.push(temp);
     });
 

@@ -12,7 +12,13 @@ async function launchPage() {
 
   interactiveFunctionality.addWindowEventListeners();
 
-  interactiveFunctionality.setUpMenu();
+  // Different display types possible (bubble or choropleth).
+  launchSupplementChoropleth();
+}
+
+function launchSupplementBubbles() {
+  // Shouldn't have to know this much detail.
+  interactiveFunctionality.setUpMenu(interactiveFunctionality.handleCheckboxChangeForBubbles);
 
   fit.fitToWindow();
   dataRender.drawMap();
@@ -20,6 +26,24 @@ async function launchPage() {
   dataRender.getCentroids();
   dataRender.setRadius(interactiveFunctionality.allNationalTeams);
   dataRender.drawCircles(interactiveFunctionality.selectedNationalTeams);
+}
+
+function launchSupplementChoropleth() {
+  // Shouldn't have to know this much detail.
+  interactiveFunctionality.setUpMenu();
+  
+  let counts = [];
+  dataRender.enhanceMapDataWithPlayerCount(
+    dao.getPlayersByClubCountry(interactiveFunctionality.allNationalTeams)
+      .forEach((clubCountry) => {
+      counts[clubCountry.name] = clubCountry.players.length;
+    })
+  );
+
+  fit.fitToWindow();
+  dataRender.drawMap();
+  dataRender.setColorScale(interactiveFunctionality.allNationalTeams);
+  dataRender.updateMap(interactiveFunctionality.allNationalTeams);
 }
 
 launchPage();

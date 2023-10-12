@@ -11,25 +11,12 @@
 body {
   font-family: 'Gabarito', sans-serif;
   font-size: calc(12px + .5vw);    /* https://stackoverflow.com/questions/23984629/how-to-set-min-font-size-in-css */
-  /* color: rgb(9, 15, 14);
-  background-color: rgb(249, 243, 231); */
-  color: rgb(9, 15, 14);
-  /* background-color: rgb(228, 255, 251); */
-  background-color: rgb(236, 255, 252);
-
-  color: rgb(26, 21, 11);
-  background-color: rgb(255, 234, 195);
-
+  background-color: var(--pageBackgroundColor);    /* Set with JS */
+  color: var(--pageTextColor);
 }
 
 header {
-  /* background-color: rgb(9, 15, 14);
-  color: rgb(153, 242, 228); */
-  color: rgb(153, 242, 228);
-  background-color: rgb(9, 15, 14);
-
-  color:rgb(231, 184, 98);
-  background-color: rgb(26, 21, 11);
+  background-color: var(--pageBackgroundColor);
 
   position: fixed;
   top: 0px;
@@ -65,7 +52,9 @@ h1 {
 }
 
 input {
-  accent-color: var(--fwwcSalmon);
+  accent-color: var(--checkboxColor);
+  cursor: pointer;
+  background-color: var(--pageTextColor);
 }
 
 /* See https://chartio.com/resources/tutorials/how-to-resize-an-svg-when-the-window-is-resized-in-d3-js/ for resizeable map */
@@ -80,22 +69,12 @@ input {
 }
 
 .map path {
-  /* fill: rgb(201, 219, 216);
-  stroke: rgb(249, 243, 231); */
-  /* fill: rgb(77, 128, 119); */
-  /* fill: rgb(169, 201, 195);
-  stroke: rgb(9, 15, 14); */
-  fill: rgb(9, 15, 14);
-  stroke: rgb(228, 255, 251);
-
-
-  fill: rgb(26, 21, 11);
-  stroke: rgb(255, 234, 195);
+  fill: var(--mapBaseColor);
+  stroke: var(--pageBackgroundColor);
 }
 
 .circles circle {
-  /* fill: rgb(105, 19, 69); */
-  fill: rgb(255, 0, 76);
+  fill: var(--accentColor1);
   opacity: 70%;
 }
 
